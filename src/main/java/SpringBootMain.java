@@ -21,5 +21,4 @@ public class SpringBootMain extends SpringBootServletInitializer {
 	public static void main(String[] args) {
 		SpringApplication.run(SpringBootMain.class, args);
 	}
-	
 }

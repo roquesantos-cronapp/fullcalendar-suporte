@@ -1,5 +1,3 @@
-
-
 /**
  * Classe que representa
  * 
@@ -8,13 +6,10 @@
  * @since 2018-12-11
  *
  */
- 
 public class Main {
-
 	/**
 	 * Construtor
 	 **/
-	public Main (){
+	public Main(){
 	}
-
 }

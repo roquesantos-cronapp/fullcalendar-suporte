@@ -14,7 +14,7 @@ import org.springframework.context.annotation.ComponentScan;
  *  - Atualizar o contexto de aplicação para carregar os singletons;
  *  - Executar qualquer bean do tipo CommandLineRunner;
  */
-@SpringBootApplication
+@SpringBootApplication 
 @ComponentScan(basePackages = { "auth.permission", "api.rest.events", "api.rest.webservices", "reports", "app", "cronapi", "blockly" })
 @EnableAutoConfiguration(exclude = { DataSourceAutoConfiguration.class, HibernateJpaAutoConfiguration.class })
 public class SpringBootMain extends SpringBootServletInitializer {

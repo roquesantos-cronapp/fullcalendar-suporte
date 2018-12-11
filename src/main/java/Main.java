@@ -9,6 +9,6 @@ public class Main {
 	/**
 	 * Construtor
 	 **/
-	public Main() {
+	public Main(){
 	}
 }

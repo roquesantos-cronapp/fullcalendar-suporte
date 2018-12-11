@@ -1,7 +1,7 @@
 
 
 /**
- * Classe que representa ...
+ * Classe que representa
  * 
  * @author Usuário de Teste
  * @version 1.0

@@ -18,7 +18,6 @@ import org.springframework.context.annotation.ComponentScan;
 @ComponentScan(basePackages = { "auth.permission", "api.rest.events", "api.rest.webservices", "reports", "app", "cronapi", "blockly" })
 @EnableAutoConfiguration(exclude = { DataSourceAutoConfiguration.class, HibernateJpaAutoConfiguration.class })
 public class SpringBootMain extends SpringBootServletInitializer {
-
 	public static void main(String[] args) {
 		SpringApplication.run(SpringBootMain.class, args);
 	}
